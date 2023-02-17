@@ -1,0 +1,11 @@
+{
+	"Id": "SVR_Charble_DDAY",
+	"Version": 26,
+	"MapLabel": "DDAY",
+	"IsCustomGameMode": false,
+	"CustomGameModeLabel": "",
+	"AndroidPakSize": 20887742,
+	"WindowsPakSize": 0,
+	"LinuxServerPakSize": 0,
+	"ShackLinuxServerPakSize": 4520126
+}

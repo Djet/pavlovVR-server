@@ -1,0 +1,2 @@
+Password=your_pa$$word
+Port=16002

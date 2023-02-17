@@ -1,0 +1,16 @@
+version: '3.2'
+
+services:
+  pavlov-DDAY:
+    ipc: host
+    privileged: True
+    image: djet/pavlov-server:1
+    network_mode: "host"
+    restart: always
+    volumes:
+    - ./config/DDAY/Game.ini:/home/steam/pavlovserver/Pavlov/Saved/Config/LinuxServer/Game.ini
+    - ./config/DDAY/RconSettings.txt:/home/steam/pavlovserver/Pavlov/Saved/Config/RconSettings.txt
+    - ./maps:/home/steam/pavlovserver/Pavlov/Saved/maps
+    environment:
+    - PORT=7940
+
